@@ -1,4 +1,5 @@
-from selenium.webdriver.firefox.webdriver import WebDriver
+#from selenium.webdriver.firefox.webdriver import WebDriver
+from selenium.webdriver.chrome.webdriver import WebDriver
 from fixture.session import SessionHelper
 from fixture.group import GroupHelper
 from fixture.contact import ContactHelper
@@ -15,10 +16,6 @@ class Application:
     def open_home_page(self):
         wd = self.wd
         wd.get("http://localhost/addressbook/")
-
-    def return_to_home_page(self):
-        wd = self.wd
-        wd.find_element_by_link_text("home").click()
 
     def destroy(self):
         self.wd.quit()
