@@ -5,19 +5,21 @@ class ContactHelper:
     def create(self, contact):
         wd = self.app.wd
         wd.find_element_by_link_text("add new").click()
-        # fill contact form
-        wd.find_element_by_name("firstname").click()
-        wd.find_element_by_name("firstname").clear()
-        wd.find_element_by_name("firstname").send_keys(contact.firstname)
-        wd.find_element_by_name("lastname").click()
-        wd.find_element_by_name("lastname").clear()
-        wd.find_element_by_name("lastname").send_keys(contact.lastname)
-        wd.find_element_by_name("middlename").click()
-        wd.find_element_by_name("middlename").clear()
-        wd.find_element_by_name("middlename").send_keys(contact.middlename)
-        # submit contact creation
+        self.fill_contact_form(contact)
         wd.find_element_by_name("submit").click()
         self.return_to_home_page()
+
+    def fill_contact_form(self, contact):
+        self.type("firstname", contact.firstname)
+        self.type("lastname", contact.lastname)
+        self.type("middlename", contact.middlename)
+
+    def type(self, field_name, text):
+        wd = self.app.wd
+        if text is not None:
+            wd.find_element_by_name(field_name).click()
+            wd.find_element_by_name(field_name).clear()
+            wd.find_element_by_name(field_name).send_keys(text)
 
     def return_to_home_page(self):
         wd = self.app.wd
@@ -34,16 +36,7 @@ class ContactHelper:
         wd = self.app.wd
         #proceed to edit page
         wd.find_element_by_xpath("//*[@title='Edit']").click()
-        #fill field
-        wd.find_element_by_name("firstname").click()
-        wd.find_element_by_name("firstname").clear()
-        wd.find_element_by_name("firstname").send_keys(contact.firstname)
-        wd.find_element_by_name("lastname").click()
-        wd.find_element_by_name("lastname").clear()
-        wd.find_element_by_name("lastname").send_keys(contact.lastname)
-        wd.find_element_by_name("middlename").click()
-        wd.find_element_by_name("middlename").clear()
-        wd.find_element_by_name("middlename").send_keys(contact.middlename)
+        self.fill_contact_form(contact)
         #submit changes
         wd.find_element_by_name("update").click()
         self.return_to_home_page()
