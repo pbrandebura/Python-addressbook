@@ -90,10 +90,9 @@ class ContactHelper:
                 firstname = cells[1].text
                 lastname = cells[2].text
                 id = cells[0].find_element_by_tag_name("input").get_attribute('value')
-                allphones = cells[5].text.splitlines()
+                allphones = cells[5].text
                 self.contact_cache.append(
-                    Contact(id=id, firstname=firstname, lastname=lastname, homephone=allphones[0],
-                            mobilephone=allphones[1], workphone=allphones[2], secondaryphone=allphones[3]))
+                    Contact(id=id, firstname=firstname, lastname=lastname, all_phones_from_home_page=allphones))
         return list(self.contact_cache)
 
     def get_contact_info_from_edit_page(self, index):
