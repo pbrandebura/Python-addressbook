@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9865333f-d070-4ede-b885-727679d3a116" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
-    </list>
+    <list default="true" id="9865333f-d070-4ede-b885-727679d3a116" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +69,7 @@
       <recent name="$PROJECT_DIR$/yourenv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_add_group.test_add_group">
+  <component name="RunManager" selected="Python tests.pytest for test_add_contact.test_add_contact">
     <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
         <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest for test_phones.test_phones_on_contact_view_page" />
         <item itemvalue="Python tests.pytest for test_phones.test_phones_on_home_page" />
         <item itemvalue="Python tests.pytest in test_phones.py" />
-        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
       </list>
     </recent_temporary>
   </component>
@@ -190,25 +186,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582123286301" />
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1582126613544">
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1582127489579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582126613544" />
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582127489579" />
     <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580670889279" />
-    <state width="1419" height="244" key="GridCell.Tab.0.center" timestamp="1582126613541">
+    <state width="1419" height="244" key="GridCell.Tab.0.center" timestamp="1582127489577">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582126613541" />
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582127489577" />
     <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580670889278" />
-    <state width="1419" height="244" key="GridCell.Tab.0.left" timestamp="1582126613539">
+    <state width="1419" height="244" key="GridCell.Tab.0.left" timestamp="1582127489575">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582126613539" />
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582127489575" />
     <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580670889277" />
-    <state width="1419" height="244" key="GridCell.Tab.0.right" timestamp="1582126613542">
+    <state width="1419" height="244" key="GridCell.Tab.0.right" timestamp="1582127489578">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582126613542" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582127489578" />
     <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580670889278" />
     <state x="308" y="192" key="IDE.errors.dialog" timestamp="1582106894681">
       <screen x="0" y="0" width="1440" height="900" />
