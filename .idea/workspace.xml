@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9865333f-d070-4ede-b885-727679d3a116" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/add_group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,28 +76,13 @@
       <recent name="$PROJECT_DIR$/yourenv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_del_group.py">
-    <configuration name="pytest for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="addressbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add_contact.test_add_contact&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
     <configuration name="pytest for test_add_group.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -110,7 +97,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -125,7 +112,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -135,12 +122,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="addressbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_del_group.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -151,19 +153,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
       <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
       <item itemvalue="Python tests.pytest for test_del_contact.test_delete_first_contact" />
       <item itemvalue="Python tests.pytest for test_del_group.test_delete_first_group" />
       <item itemvalue="Python tests.pytest in test_del_group.py" />
+      <item itemvalue="Python tests.pytest in test_add_group.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_add_group.py" />
         <item itemvalue="Python tests.pytest in test_del_group.py" />
+        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
         <item itemvalue="Python tests.pytest for test_del_group.test_delete_first_group" />
         <item itemvalue="Python tests.pytest for test_del_contact.test_delete_first_contact" />
-        <item itemvalue="Python tests.pytest for test_add_contact.test_add_contact" />
-        <item itemvalue="Python tests.pytest for test_add_group.test_add_group" />
       </list>
     </recent_temporary>
   </component>
@@ -194,35 +196,39 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582539915345">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582652148877">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582539915345" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582195127766" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582652148877" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582645980982" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582123286301">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582123286301" />
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1582540652987">
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1582653160270">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582540652987" />
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582224564507" />
-    <state width="1419" height="244" key="GridCell.Tab.0.center" timestamp="1582540652982">
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582653160270" />
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1582545578091" />
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582645982492" />
+    <state width="1419" height="244" key="GridCell.Tab.0.center" timestamp="1582653160267">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582540652982" />
-    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582224564506" />
-    <state width="1419" height="244" key="GridCell.Tab.0.left" timestamp="1582540652981">
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582653160267" />
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1582545578089" />
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582645982490" />
+    <state width="1419" height="244" key="GridCell.Tab.0.left" timestamp="1582653160265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582540652981" />
-    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582224564505" />
-    <state width="1419" height="244" key="GridCell.Tab.0.right" timestamp="1582540652983">
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582653160265" />
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1582545578088" />
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582645982489" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right" timestamp="1582653160269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582540652983" />
-    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582224564507" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1582653160269" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.1920.1057@0.0.1440.900" timestamp="1582545578090" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582645982491" />
     <state x="308" y="192" key="IDE.errors.dialog" timestamp="1582106894681">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
